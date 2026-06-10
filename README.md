@@ -87,7 +87,7 @@ Les fichiers Parquet ont été produits à partir des CSV originaux via un scrip
 - **Conversion des dates** : format `MM/YYYY` → date `YYYY-MM-01` (premier du mois)
 - **Conversion des booléens** : harmonisation des valeurs `true/false`, `yes/no`, `1/0`
 - **Catégorisation** : colonnes à faible cardinalité encodées en `category` pour optimiser la compression
-- **Filtrage temporel** : transactions limitées à la période **2022–2024** pour maintenir un volume gérable
+- **Filtrage temporel** : transactions limitées à la période **2010–2019** pour maintenir un volume gérable
 
 **Ratio de compression obtenu** : environ ×5 par rapport aux CSV originaux.
 
