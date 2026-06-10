@@ -54,14 +54,14 @@ Elles ont été converties du format CSV original au format **Apache Parquet** (
 ### Fichiers hébergés dans le repo (raw URLs)
 
 ```
-https://raw.githubusercontent.com/TON_USER/TON_REPO/main/users_data.parquet
-https://raw.githubusercontent.com/TON_USER/TON_REPO/main/cards_data.parquet
+https://github.com/Claude127/actinvision-usecase-data/raw/refs/heads/master/cards_data.parquet
+https://github.com/Claude127/actinvision-usecase-data/raw/refs/heads/master/users_data.parquet
 ```
 
 ### Fichier hébergé en Release
 
 ```
-https://github.com/TON_USER/TON_REPO/releases/download/v1.0/transactions_data.parquet
+https://github.com/Claude127/actinvision-usecase-data/releases/download/v1.0/transactions_data.parquet
 ```
 
 ### Formule Power Query (pour chaque fichier Parquet)
